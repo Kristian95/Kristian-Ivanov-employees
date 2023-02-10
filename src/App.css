@@ -1,0 +1,118 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: lightblue;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+h1 small {
+  display: block;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+/* Section-details */
+
+.section-details {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.section-details .section__head {
+  padding-bottom: 2rem;
+}
+
+.section-details .section__body {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  flex-flow: column;
+}
+
+.section-details .section__body h4 {
+  font-size: 2rem;
+  margin: 0 ;
+}
+
+.section-details .section__body ul {
+  font-size: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.section-details .section__body li {
+  padding-bottom: 1rem;
+}
+
+.section-details .section__body li:last-child {
+  padding-bottom: 0;
+}
+
+button {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 600;
+  appearance: none;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  transition: background .4s;
+}
+
+button:hover {
+ background-color: #ccc;
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+table tr {
+  border: 1px solid white;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+table thead tr {
+  background-color: #ccc;
+  color: #000;
+}
+
+table td,
+table th {
+  padding: .8rem;
+}
+
+
+input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
