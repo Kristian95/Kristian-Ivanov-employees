@@ -27,7 +27,7 @@ function App() {
 	return (
 		<div className="App">
 			<section className="section-details">
-				<div className="section__head">
+				<div className="section-head">
 					<h1>
 						Upload a valid csv file
 					</h1>
@@ -35,23 +35,7 @@ function App() {
 					<FileUpload employeesHandler={setProjectsHandler} />
 				</div>
 
-				<div className="section__body">
-					{colleaguesPair && (
-						<>
-							<h4>Pair that worked together the most:</h4>
-
-							<ul>
-								<li>{`Pair: ${colleaguesPair.employee} - ${colleaguesPair.colleague.employeeId}`}</li>
-
-								<li>{`Projects: ${colleaguesPair.colleague.projects.join(
-									", "
-								)}`}</li>
-
-								<li>{`Total number of days: ${colleaguesPair.colleague.workedTogether}`}</li>
-							</ul>
-						</>
-					)}
-
+				<div className="section-body">
 					{projects && (
 						<h2>
 							Pair of employees who have worked together on single

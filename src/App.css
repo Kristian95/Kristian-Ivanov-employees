@@ -30,33 +30,33 @@ h1 small {
   margin: 0 auto;
 }
 
-.section-details .section__head {
+.section-details .section-head {
   padding-bottom: 2rem;
 }
 
-.section-details .section__body {
+.section-details .section-body {
   display: flex;
   flex-wrap: wrap;
   /* align-items: center; */
   flex-flow: column;
 }
 
-.section-details .section__body h4 {
+.section-details .section-body h4 {
   font-size: 2rem;
   margin: 0 ;
 }
 
-.section-details .section__body ul {
+.section-details .section-body ul {
   font-size: 2rem;
   list-style: none;
   padding: 0;
 }
 
-.section-details .section__body li {
+.section-details .section-body li {
   padding-bottom: 1rem;
 }
 
-.section-details .section__body li:last-child {
+.section-details .section-body li:last-child {
   padding-bottom: 0;
 }
 
